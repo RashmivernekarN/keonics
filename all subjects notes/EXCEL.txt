@@ -1,0 +1,22 @@
+=now()
+
+=today()
+
+=time(23,45,10)
+
+=power(10,3)
+
+=sqrt(81)
+
+=fact(4)
+
+=date(2019,5,8)
+           (year,month,day)
+
+=trim("computer         is         an      electronic                      device")
+
+=upper("keonics")
+
+=lower("COMPUTER")
+
+=len("hubli")

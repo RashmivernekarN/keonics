@@ -1,0 +1,27 @@
+Notepad
+
+Notepad is a basic text-editing program and it's most commonly used to view or edit text files. 
+
+ .txt file name extension.
+EXAMPLE: file1.txt
+
+TO OPEN NOTEPAD USE FOLLOWING-->
+Start --> All Programs-->Accessories-->Note pad 
+
+Notepad shortcut KEYS
+
+Alt-F->File Menu
+Alt+E->Edit Menu
+Alt+V->View Menu
+Ctrl+N-> New
+Ctrl+O->Open
+Ctrl+S->Save
+Ctrl+P->Print
+Ctrl+A->Select All
+Ctrl+C- >Copy
+Ctrl+V->Paste
+Ctrl+X->Cut
+Ctrl+Z->Undo
+Ctrl+F->Find
+Ctrl+H->Replace
+F5->Date/Time
