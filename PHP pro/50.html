@@ -1,0 +1,7 @@
+<?php // start the session session_start();
+ header("Cache-control: private"); //IE 6 Fix $_SESSION = array(); 
+session_destroy(); echo "<strong>Step 5 - Destroy This Session </strong><br />";
+ if($_SESSION['name']){     echo "The session is still active"; } else {   
+  echo "Ok, the session is no longer active! <br />";     echo "<a href=\"page1.php\"><< Go Back Step 1</a>"; }
+ ?> 
+

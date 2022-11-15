@@ -1,0 +1,29 @@
+<?php
+
+$news = array(
+  array( "headline" => "header",
+    "image" => "high.gif",
+    "byline" => "line",
+    "article" => "news",
+    "type" => "short"
+    )
+);
+
+
+$doc = new DomDocument("1.0");
+$root = $doc->appendChild( $doc->createElement("banana-news") );
+foreach( $news as $newselement ) {
+  $item = $root->appendChild( $doc->createElement( "newsitem") );
+  $item->setAttribute( "type", $newselement['type'] );
+  foreach( array("headline", "image", "byline") as $tagname ) {
+    $el = $doc->createElement( $tagname );
+    $item->appendChild( $el );
+    $text = $doc->createTextNode( $newselement[$tagname] );
+    $el->appendChild( $text );
+
+  }
+}
+
+print $doc->saveXML( );
+  
+  

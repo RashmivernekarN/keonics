@@ -1,0 +1,12 @@
+<?php
+$arr = array(5 => 1, 12 => 2);
+foreach ($arr as $key => $value) { echo $key, ‘=>’,                            
+                                        $value);  }
+$arr[] = 56;    // the same as $arr[13] = 56;
+$arr["x"] = 42; // adds a new element
+unset($arr[5]); // removes the element
+unset($arr);    // deletes the whole array
+$a = array(1 => 'one', 2 => 'two', 3 => 'three');
+unset($a[2]);
+$b = array_values($a);
+?>

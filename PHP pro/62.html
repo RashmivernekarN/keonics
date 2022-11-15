@@ -1,0 +1,12 @@
+<?php 
+setcookie("uname", $_POST["name"], time()+36000);
+?>
+<html>
+<body>
+<p>
+Dear <?php echo $_POST["name"] ?>, a cookie was set on this
+page! The cookie will be active when the client has sent the
+cookie back to the server.
+</p>
+</body>
+</html>

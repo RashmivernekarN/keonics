@@ -1,0 +1,35 @@
+<?php
+     $tel_node = null;
+     $doc = xmldocfile ('contact.xml');
+     $contact_node = $doc->root ();
+     $kids = $contact_node->children ();
+
+     while ($node = array_shift ($kids)) {
+          if (($node->type == XML_ELEMENT_NODE) && ($node->tagname == 'personal')) {
+               $tel_node =& $node;
+               break;
+          }
+     }
+     if ($tel_node == null){
+          die ("Couldn't locate 'personal' node.");
+     }
+     $work_node = $tel_node->new_child ('work', '6666');
+   
+     print ("<pre>\n");
+     print (htmlspecialchars ($doc->dumpmem ()));
+     print ("</pre>\n");
+?>
+<!--
+<contact id="43956">
+     <personal>
+          <name>
+               <first>J</first>
+               <middle>J</middle>
+               <last>J</last>
+          </name>
+          <title>Manager</title>
+          <employer>National</employer>
+          <dob>1971-12-22</dob>
+     </personal>
+</contact>
+-->        

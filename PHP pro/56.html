@@ -1,0 +1,11 @@
+<?php
+$myFile = "welcome.txt";
+if (!($fh=fopen($myFile,'r'))) 
+exit("Unable to open file.");
+while (!feof($fh)) 
+{ 
+$x=fgetc($fh); 
+echo $x;
+}
+fclose($fh);
+?>

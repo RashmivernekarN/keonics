@@ -1,0 +1,24 @@
+<?php
+
+#load an XML document into the DOM
+$dom = new DomDocument();
+$dom -> load("books.xml");
+
+$title =  $dom -> createElement("title");
+
+#create text nodes
+$topictext =  $dom -> createTextNode("Linux");
+
+#append the text nodes to the inner nested elements
+$topic  -> appendChild($topictext);
+
+#append the inner nested elements to the <title> element
+$title -> appendChild($topic);
+
+#append the <title> element to the root element
+$dom -> documentElement -> appendChild($title);
+
+#create a new enlarged xml document
+$dom -> save("newbooks.xml");
+
+?>
