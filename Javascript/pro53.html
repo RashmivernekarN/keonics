@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Extract Fixed Number of Characters from a String</title>
+</head>
+<body>
+<script>
+var str = "The quick brown fox jumps over the lazy dog.";
+document.write(str.substr(4, 15) + "<br>"); // Prints: quick brown fox
+document.write(str.substr(-28, -19) + "<br>"); // Prints nothing
+document.write(str.substr(-28, 9) + "<br>"); // Prints: fox jumps
+document.write(str.substr(31)); // Prints: the lazy dog.
+</script>
+</body>
+</html>

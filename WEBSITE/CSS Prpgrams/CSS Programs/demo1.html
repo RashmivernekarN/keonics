@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo 2</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.clearfix{
+			clear: both;
+			padding:50px 0;
+		}
+		.clearfix::after{
+			content: '';
+			clear: both;
+			display: table;
+		}
+		img{
+			height: 200px;
+			float: left;
+			padding:0 10px;
+		}
+		.box{
+			float: left;
+			width:33.33%;
+			padding:50px;
+			background:#1e1e1e;
+			min-height: 150px;
+			border:1px solid red;
+			
+
+		}
+		.img-container {
+		  float: left;
+		  width: 33.33%; 
+		  padding: 5px; 
+		}
+	</style>
+</head>
+<body>
+<div class="clearfix">
+	<h2>Teting information</h2>
+	<img src="bg.jpg">
+	Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+</div>
+
+<div class="clearfix">
+	<div class="box">Hello</div>
+	<div class="box">Box Model</div>
+	<div class="box">Example</div>
+	<div class="box"></div>
+</div>
+<div class="clearfix">
+	<div class="img-container" >
+		<img src="bg.jpg" style="width: 100%;height: auto;">
+	</div>
+	<div class="img-container">
+		<img src="bg.jpg"  style="width: 100%;height: auto;">
+	</div>
+	<div class="img-container">
+		<img src="bg.jpg"  style="width: 100%;height: auto;">
+	</div>
+</div>
+</body>
+</html>

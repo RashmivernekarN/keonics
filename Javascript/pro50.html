@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Search Text or Pattern inside a String</title>
+</head>
+<body>
+<script>
+var str = "Color red looks brighter than color blue.";
+// Case sensitive search
+var pos1 = str.search("color");
+document.write(pos1 + "<br>"); // 0utputs: 30
+// Case insensitive search using regexp
+var pos2 = str.search(/color/i);
+document.write(pos2); // 0utputs: 0
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Extract substring from a String</title>
+</head>
+<body>
+<script>
+var str = "The quick brown fox jumps over the lazy dog.";
+document.write(str.substring(4, 15) + "<br>"); // Prints: quick brown
+document.write(str.substring(9, 0) + "<br>"); // Prints: The quick
+document.write(str.substring(-28, -19) + "<br>"); // Prints nothing
+document.write(str.substring(31)); // Prints: the lazy dog.
+</script>
+</body>
+</html>

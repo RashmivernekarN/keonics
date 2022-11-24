@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Text Size</title>
+	<style type="text/css">
+		h1.firstheader{
+			font-size:5vw;
+		}
+		h1.secondheader{
+			font-variant: small-caps;
+		}
+		#activeLink{
+			color:hotpink;
+		}
+		#activeLink:visited{
+			color:green;
+		}
+		#activeLink:hover{
+			color:red;
+		}
+		#activeLink:active{
+			color:blue;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		table, th,td{
+			border:1px solid gray;
+		}
+		table tbody tr:nth-child(even){
+			background:#1e1e1e1f;
+		}
+		.pos_relative{
+			position: relative;
+			min-height: 100px;
+			min-width:100px;
+			max-width: 500px;			
+			border:1px solid gray;
+		}
+		.pos_abs{
+			position: absolute;
+		    background: red;
+		    border: 1px solid gray;
+		    max-height: 50px;
+		    min-height: 50px;
+		    min-width: 50px;
+		    max-width: 100px;
+		    top: 0;
+		    bottom: 0;
+		    left: 50%;
+		    right: 50%;
+		}
+		
+	</style>
+</head>
+<body>
+<h1 class="firstheader">Hello World</h1>
+<h1 class="secondheader">Welcome to css font property</h1>
+<a id="activeLink" href="http://linkedin.com" target="_blank">Click Here to Download</a>
+<table>
+	<thead>
+		<tr>					
+		<th>Sl.No</th>
+		<th>Name</th>
+		<th>Email</th>
+		</tr>	
+	</thead>
+	<tbody>
+		<tr>
+		<td>1</td>
+		<td>Vijay</td>
+		<td>vijay@ampwork.com</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Rajesh</td>
+		<td>rajesh@gmail.com</td>
+	</tr>
+	</tbody>
+</table>
+<div class="pos_relative">
+		<div class="pos_abs">
+			
+		</div>
+	</div>
+</body>
+</html>
