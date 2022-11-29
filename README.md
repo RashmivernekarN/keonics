@@ -16,4 +16,4 @@
 ## DTP ASSIGNMENT
 - [Link](https://bit.ly/3F7zJKV)
 ## Spoken English PDF
-- [Link]()
+- [Link](https://bit.ly/3AUqbR2)
