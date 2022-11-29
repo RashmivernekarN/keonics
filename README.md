@@ -39,7 +39,8 @@
 - [Link](https://bit.ly/3iqBI3W)
 - [Link](https://github.com/RashmivernekarN/keonics/tree/main/cpp_notes)
 
-
+## ORACLE
+- [LINK](https://github.com/RashmivernekarN/keonics/tree/main/ORACLE)
 
 
 
