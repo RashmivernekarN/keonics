@@ -24,8 +24,8 @@
 ## PHP
 - [Link](https://bit.ly/3XF9O4z)
 - [LINK](https://bit.ly/3ii74tI)
-##
-- [Link]
+## JAVA APPLET
+- [Link](https://bit.ly/3AODXEP)
 ##
 - [Link]
 ##
