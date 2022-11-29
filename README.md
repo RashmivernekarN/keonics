@@ -8,6 +8,8 @@
 ## Keonics Question and Answer
 - [Link](https://bit.ly/3ioJStF)
 ## Office management & Mso Assinment
-- [Link]
+- [Link](https://bit.ly/3gMUW3x)
 ## Web Designing PDF
 - [Link](https://bit.ly/3Ucrr8R)
+## Tally ASSIGNMENT
+- [Link]()
