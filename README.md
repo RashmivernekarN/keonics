@@ -12,4 +12,6 @@
 ## Web Designing PDF
 - [Link](https://bit.ly/3Ucrr8R)
 ## Tally ASSIGNMENT
+- [Link](https://bit.ly/3VC0GMo)
+## DTP ASSIGNMENT
 - [Link]()
