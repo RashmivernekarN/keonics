@@ -37,7 +37,7 @@
 - [LINK](https://bit.ly/3ilMHMi)
 ## CPP
 - [Link](https://bit.ly/3iqBI3W)
-
+- [Link](https://github.com/RashmivernekarN/keonics/tree/main/cpp_notes)
 
 
 
