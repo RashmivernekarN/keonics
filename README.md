@@ -14,4 +14,6 @@
 ## Tally ASSIGNMENT
 - [Link](https://bit.ly/3VC0GMo)
 ## DTP ASSIGNMENT
+- [Link](https://bit.ly/3F7zJKV)
+## Spoken English PDF
 - [Link]()
