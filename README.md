@@ -17,3 +17,5 @@
 - [Link](https://bit.ly/3F7zJKV)
 ## Spoken English PDF
 - [Link](https://bit.ly/3AUqbR2)
+## All Subject Notes
+- [Link](https://bit.ly/3u9WoQA)
