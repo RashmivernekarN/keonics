@@ -17,5 +17,7 @@
 - [Link](https://bit.ly/3AUqbR2)
 ## All Subject Notes
 - [Link](https://bit.ly/3u9WoQA)
+## CLC Model Question and Answer
+- [Link](https://bit.ly/3EPADKG)
 ## 
 - [Link]()
