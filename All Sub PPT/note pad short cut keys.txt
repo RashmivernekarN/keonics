@@ -1,0 +1,17 @@
+Note Pad short cut keys
+Alt-F-File Menu
+ctrl+N- New
+ctrl+O-Open
+ctrl+S-Save
+ctrl+P-Print
+ctrl+A-Select All
+ctrl+C- Copy
+ctrl+V-Paste
+ctrl+X-Cut
+ctrl+Z-Undo
+ctrl+F-Find
+ctrl+H-Replace
+ctrl+G-Go To
+F5-Date/Time
+
+
