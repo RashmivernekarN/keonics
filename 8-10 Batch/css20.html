@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSS Layers Effect</title>
+  <style>            
+      .box{
+          width: 150px;
+          height: 150px;
+          opacity: 0.9;
+          position: absolute;                       
+          top: 30px;
+          left: 30px;
+      }
+      .red{
+          background: #ff0000;
+          z-index: 1;
+      }
+      .green{
+          background: #00ff00;
+          z-index: 2;
+      }
+      .blue{
+          background: #0000ff;
+          z-index: 3;
+      }
+  </style>
+</head>
+<body>
+  <div class="box red">
+      <div class="box green">
+          <div class="box blue"></div>
+      </div>
+  </div>
+</body>
+</html>                             

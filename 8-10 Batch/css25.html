@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS ::before and ::after Pseudo-element</title>
+<style> 
+    h1::before {
+        content: url("images/marker.png");
+    }
+    h1::after {
+        content: url("images/marker.png");
+    }
+</style>
+</head>
+<body>        
+    <h1>This is a heading</h1>
+    <p><strong>Note:</strong> Internet Explorer 7 and earlier version don't support the <code>content</code> property. IE8 supports only if a <code><!DOCTYPE></code> is specified.</p>
+</body>
+</html>                            

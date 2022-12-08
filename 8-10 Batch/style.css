@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#ffffff;
+}
+#left, #right{
+	width:49%;	
+	display: inline-block;
+	position: relative;
+}
+#left{
+	background-image:url("images/login.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center right;
+	height: 100vh;
+}
+#right{
+	background-color:transparent;
+	height: 100vh;
+	color:black;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color:rgba(0,0,0,0.41);
+}

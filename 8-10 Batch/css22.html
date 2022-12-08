@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS :first-child Pseudo-class</title>
+<style>
+    ol{
+        padding: 0;
+        list-style: none;          
+    }
+    ol li{
+        padding: 10px 0;
+        border-top: 1px solid #000000;
+    }
+    li:first-child {
+        border-top: none;
+    }
+</style>
+</head>
+<body>
+    <h1>Sample Ordered Lists</h1>
+    <ol>
+        <li>Mix ingredients</li>
+        <li>Bake in oven for an hour</li>
+        <li>Allow to stand for ten minutes</li>
+    </ol>
+    <p><strong>Note:</strong> To make <code>:first-child</code> to work in IE8 and earlier, a <code><!DOCTYPE></code> must be declared at the top of document.</p>
+</body>
+</html>                            
