@@ -5,7 +5,7 @@ void main()
  {
    int a,b,c;
    clrscr();
-   printf("\n Enter 3 num:");
+   printf("\n Enter 3 num");
    scanf("%d%d%d",&a,&b,&c);
    if(a>b)
      if(a>c)

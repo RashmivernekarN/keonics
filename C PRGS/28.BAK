@@ -6,9 +6,9 @@ void main()
  {
    char ch;
    clrscr();
-   printf("\n Enter any character:");
+   printf("\n Enter any character");
    scanf("%c",&ch);
-   if(ch>='A'&& ch<='Z'||ch>='a'&&ch<='z')
+   if(ch>='A'&&ch<='Z'||ch>='a'&&ch<='z')
       printf("\n %c is a alphabet",ch);
    else if(ch>='0'&& ch<='9')
       printf("\n %c is a digit",ch);

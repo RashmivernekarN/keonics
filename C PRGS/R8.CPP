@@ -1,0 +1,77 @@
+//program to demonstrate Student Marks Sheet.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int rollno,kan,eng,hin,total,std;
+float per;
+char name[25],result[4],remarks[15],grade;
+clrscr();
+printf("\nEnter the Name of Student:");
+scanf("%s",&name);
+printf("\nEnter the Rollno:");
+scanf("%d",&rollno);
+printf("\nEnter the Standered:");
+scanf("%d",&std);
+printf("\nEnter the Marks of Kannada:");
+scanf("%d",&kan);
+printf("\nEnter the Marks of English:");
+scanf("%d",&eng);
+printf("\nEnter the Marks of Hindi:");
+scanf("%d",&hin);
+{
+total=kan+eng+hin;
+per=total/3;
+}
+printf("\nName the Student:=%s",name);
+printf("\nStudent Roll Number:=%d",rollno);
+printf("\nStandered:=%d",std);
+printf("\nTotal Marks of kannada:=%d",kan);
+printf("\nTotal Marks of English:=%d",eng);
+printf("\nTotal Marks of hindi:=%d",hin);
+printf("\nTotal Marks:=%d",total);
+printf("\nTotal Percentage:=%0.2f",per);
+printf("\nStudent Result:=%s",result);
+{
+if(kan>=35)
+printf("Pass");
+else
+printf("Fail");
+if(eng>=35)
+printf("Pass");
+else
+printf("Fail");
+if(hin>=35)
+printf("Pass");
+else
+printf("Fail");
+}
+printf("\nStudent Remarks:=%s",remarks);
+{
+if(per>=75)
+printf("Dist");
+else if(per>=60 && per<75)
+printf("First");
+else if(per>=50 && per<60)
+printf("Second");
+else if(per>=35 && per<50)
+printf("Just Pass");
+else
+printf("Fail");
+}
+
+printf("\nStudent Grade:=%s",grade);
+{
+if(per>=75)
+printf("A");
+else if(per>=60 && per<75)
+printf("B");
+else if(per>=50 && per<60)
+printf("C");
+else if(per>=35 && per<50)
+printf("Just Pass");
+else
+printf("Fail");
+}
+getch();
+}

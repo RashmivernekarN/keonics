@@ -1,0 +1,68 @@
+/*//program to print smallest two no's.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a=5,b=10,big;
+if(a>b)
+/*printf("\n%d is big",a); */
+/*printf("\nBiggest of Two No's:=%d",a);
+else
+/*printf("\n%d is big",b); */
+/*printf("\nBiggest of Two No's:=%d",b);
+getch();
+}*/
+
+/*//program to print smallest two no's.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a=50,b=10,big;
+if(a>b)
+printf("\nA:=%d This is big",a);
+/*printf("\nBiggest of Two No's:=%d",a);*/
+/*printf("\n   A is Biggest",a);
+if(a<b)*/
+/*printf("\nB:=%d is big",b);
+printf("\nBiggest of Two No's:=%d",b);*/
+/*printf("\n Bis Biggest",b);
+getch();
+} */
+
+/*//program to print smallest two no's.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,b,big;
+printf("\nEnter the value of A:");
+scanf("%d",&a);
+printf("\nEnter the value of B:");
+scanf("%d",&b);
+if(a>b)
+printf("\nA:=%d is big",a);
+/*printf("\nBiggest of Two No's:=%d",a);
+else
+printf("\nB:=%d is big",b);
+/*printf("\nBiggest of Two No's:=%d",b);*/
+/*getch();
+}*/
+//program to print smallest two no's.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+int a,b,large;
+printf("\nEnter the value of A:");
+scanf("%d",&a);
+printf("\nEnter the value of B:");
+scanf("%d",&b);
+large=(a>b)?a:b;
+printf("\nA:=%d is big",large);
+getch();
+}

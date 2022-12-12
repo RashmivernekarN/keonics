@@ -5,7 +5,7 @@ void main()
  {
    int yr;
    clrscr();
-   printf("\n Enter any year");
+   printf("\n Enter any yr:");
    scanf("%d",&yr);
    (yr%4==0)? printf("\n %d is leap year",yr):printf("\n %d is not a leap year",yr);
    getch();
