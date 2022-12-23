@@ -5,11 +5,10 @@
 - [Link](https://bit.ly/3Vz80bl)
 ## Keonics Question and Answer
 - [Link](https://bit.ly/3ioJStF)
-## old Office management 2020  Assinment
+## Old Office management 2020  Assinment
 - [Link1](https://bit.ly/3gMUW3x)
 ## New Office Management 2023 Assinment
 - [Link2](https://github.com/RashmivernekarN/keonics/tree/main/OM%20Final)
-
 ## Web Designing PDF
 - [Link](https://bit.ly/3Ucrr8R)
 ## Tally ASSIGNMENT
